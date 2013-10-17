@@ -9,7 +9,7 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Minilla/v0.7.5, CPAN::Meta::Converter version 2.132830'
+generated_by: 'Minilla/v0.8.0, CPAN::Meta::Converter version 2.132830'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -28,9 +28,10 @@ no_index:
 provides:
   Task::BeLike::ZAKAME:
     file: lib/Task/BeLike/ZAKAME.pm
-    version: 0.02
+    version: 0.03
 requires:
   App::Ack: 0
+  App::Nopaste: 0
   App::cpanoutdated: 0
   App::ph: 0
   App::rainbarf: 0
@@ -47,7 +48,7 @@ resources:
   bugtracker: https://github.com/zakame/Task-BeLike-ZAKAME/issues
   homepage: https://github.com/zakame/Task-BeLike-ZAKAME
   repository: git://github.com/zakame/Task-BeLike-ZAKAME.git
-version: 0.02
+version: 0.03
 x_contributors:
   - 'Zak B. Elep <zakame@zakame.net>'
   - 'Zak B. Elep <zak.elep@yoyo.ph>'
